@@ -18,7 +18,6 @@ services:
       - volume-arcturus-target:/app/arcturus/target
       - volume-arcturus-maven-repo:/root/.m2
     ports:
-      - 3000:3000
       - 3001:3001
       - 2096:2096
     depends_on:
